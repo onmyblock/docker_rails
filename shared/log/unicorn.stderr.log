@@ -1,0 +1,133 @@
+I, [2014-12-04T06:37:21.662680 #4311]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+E, [2014-12-04T06:37:21.663168 #4311] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:21.663320 #4311] ERROR -- : retrying in 0.5 seconds (4 tries left)
+E, [2014-12-04T06:37:22.163762 #4311] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:22.164031 #4311] ERROR -- : retrying in 0.5 seconds (3 tries left)
+E, [2014-12-04T06:37:22.664542 #4311] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:22.664808 #4311] ERROR -- : retrying in 0.5 seconds (2 tries left)
+E, [2014-12-04T06:37:23.165320 #4311] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:23.165576 #4311] ERROR -- : retrying in 0.5 seconds (1 tries left)
+E, [2014-12-04T06:37:23.666019 #4311] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:23.666358 #4311] ERROR -- : retrying in 0.5 seconds (0 tries left)
+E, [2014-12-04T06:37:24.166900 #4311] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+/usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `bind': Address already in use - bind(2) for 0.0.0.0:3000 (Errno::EADDRINUSE)
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `new_tcp_server'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:165:in `bind_listen'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-12-04T06:37:30.337090 #4385]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-12-04T06:37:30.337461 #4385]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+E, [2014-12-04T06:37:30.337916 #4385] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:30.338041 #4385] ERROR -- : retrying in 0.5 seconds (4 tries left)
+E, [2014-12-04T06:37:30.838468 #4385] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:30.838716 #4385] ERROR -- : retrying in 0.5 seconds (3 tries left)
+E, [2014-12-04T06:37:31.339201 #4385] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:31.339447 #4385] ERROR -- : retrying in 0.5 seconds (2 tries left)
+E, [2014-12-04T06:37:31.840009 #4385] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:31.840338 #4385] ERROR -- : retrying in 0.5 seconds (1 tries left)
+E, [2014-12-04T06:37:32.341816 #4385] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+E, [2014-12-04T06:37:32.342168 #4385] ERROR -- : retrying in 0.5 seconds (0 tries left)
+E, [2014-12-04T06:37:32.842584 #4385] ERROR -- : adding listener failed addr=0.0.0.0:3000 (in use)
+/usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `bind': Address already in use - bind(2) for 0.0.0.0:3000 (Errno::EADDRINUSE)
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:185:in `new_tcp_server'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:165:in `bind_listen'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-12-04T06:40:04.225416 #3114]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-12-04T06:40:04.225999 #3114]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2014-12-04T06:40:04.226040 #3114]  INFO -- : worker=0 spawning...
+I, [2014-12-04T06:40:04.226700 #3114]  INFO -- : worker=1 spawning...
+I, [2014-12-04T06:40:04.227311 #3117]  INFO -- : worker=0 spawned pid=3117
+I, [2014-12-04T06:40:04.227860 #3114]  INFO -- : worker=2 spawning...
+I, [2014-12-04T06:40:04.228022 #3117]  INFO -- : Refreshing Gem list
+I, [2014-12-04T06:40:04.228816 #3114]  INFO -- : master process ready
+I, [2014-12-04T06:40:04.236299 #3120]  INFO -- : worker=1 spawned pid=3120
+I, [2014-12-04T06:40:04.239167 #3122]  INFO -- : worker=2 spawned pid=3122
+I, [2014-12-04T06:40:04.239529 #3120]  INFO -- : Refreshing Gem list
+I, [2014-12-04T06:40:04.240299 #3122]  INFO -- : Refreshing Gem list
+I, [2014-12-04T06:40:09.030838 #3117]  INFO -- : worker=0 ready
+I, [2014-12-04T06:40:09.031625 #3122]  INFO -- : worker=2 ready
+I, [2014-12-04T06:40:09.033799 #3120]  INFO -- : worker=1 ready
+127.0.0.1 - - [04/Dec/2014 06:40:12] "GET / HTTP/1.1" 200 - 0.4901
+I, [2014-12-04T06:41:08.279809 #3114]  INFO -- : reaped #<Process::Status: pid 3117 exit 0> worker=0
+I, [2014-12-04T06:41:08.280115 #3114]  INFO -- : reaped #<Process::Status: pid 3120 exit 0> worker=1
+I, [2014-12-04T06:41:08.280375 #3114]  INFO -- : reaped #<Process::Status: pid 3122 exit 0> worker=2
+I, [2014-12-04T06:41:08.280655 #3114]  INFO -- : master complete
+I, [2014-12-04T06:41:53.208520 #3112]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-12-04T06:41:53.209132 #3112]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2014-12-04T06:41:53.209406 #3112]  INFO -- : worker=0 spawning...
+I, [2014-12-04T06:41:53.210105 #3112]  INFO -- : worker=1 spawning...
+I, [2014-12-04T06:41:53.210692 #3115]  INFO -- : worker=0 spawned pid=3115
+I, [2014-12-04T06:41:53.211188 #3112]  INFO -- : worker=2 spawning...
+I, [2014-12-04T06:41:53.211349 #3115]  INFO -- : Refreshing Gem list
+I, [2014-12-04T06:41:53.211949 #3112]  INFO -- : master process ready
+I, [2014-12-04T06:41:53.219704 #3118]  INFO -- : worker=1 spawned pid=3118
+I, [2014-12-04T06:41:53.220251 #3118]  INFO -- : Refreshing Gem list
+I, [2014-12-04T06:41:53.221506 #3120]  INFO -- : worker=2 spawned pid=3120
+I, [2014-12-04T06:41:53.223101 #3120]  INFO -- : Refreshing Gem list
+I, [2014-12-04T06:41:57.706961 #3115]  INFO -- : worker=0 ready
+I, [2014-12-04T06:41:57.712302 #3118]  INFO -- : worker=1 ready
+I, [2014-12-04T06:41:57.713775 #3120]  INFO -- : worker=2 ready
+/usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:3112 (or pid=/opt/web_app/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:135:in `start'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-12-04T06:42:52.951287 #3274] ERROR -- : adding listener failed addr=/tmp/unicorn.sock (in use)
+E, [2014-12-04T06:42:52.951594 #3274] ERROR -- : retrying in 0.5 seconds (4 tries left)
+E, [2014-12-04T06:42:53.453229 #3274] ERROR -- : adding listener failed addr=/tmp/unicorn.sock (in use)
+E, [2014-12-04T06:42:53.453481 #3274] ERROR -- : retrying in 0.5 seconds (3 tries left)
+E, [2014-12-04T06:42:53.955183 #3274] ERROR -- : adding listener failed addr=/tmp/unicorn.sock (in use)
+E, [2014-12-04T06:42:53.955419 #3274] ERROR -- : retrying in 0.5 seconds (2 tries left)
+E, [2014-12-04T06:42:54.457379 #3274] ERROR -- : adding listener failed addr=/tmp/unicorn.sock (in use)
+E, [2014-12-04T06:42:54.457866 #3274] ERROR -- : retrying in 0.5 seconds (1 tries left)
+E, [2014-12-04T06:42:54.960508 #3274] ERROR -- : adding listener failed addr=/tmp/unicorn.sock (in use)
+E, [2014-12-04T06:42:54.960861 #3274] ERROR -- : retrying in 0.5 seconds (0 tries left)
+E, [2014-12-04T06:42:55.463208 #3274] ERROR -- : adding listener failed addr=/tmp/unicorn.sock (in use)
+/usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `initialize': Address already in use - connect(2) for "/tmp/unicorn.sock" (Errno::EADDRINUSE)
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `new'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/socket_helper.rb:158:in `bind_listen'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:242:in `listen'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `block in bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `each'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:809:in `bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:138:in `start'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+127.0.0.1 - - [04/Dec/2014 06:44:43] "GET / HTTP/1.1" 200 - 0.4887
+127.0.0.1 - - [04/Dec/2014 06:44:48] "GET / HTTP/1.0" 200 - 0.0215
+10.0.2.2 - - [04/Dec/2014 06:44:54] "GET / HTTP/1.0" 200 - 0.4120
+10.0.2.2 - - [04/Dec/2014 06:46:02] "GET / HTTP/1.0" 500 2997 0.4662
+10.0.2.2 - - [04/Dec/2014 06:46:19] "GET / HTTP/1.0" 200 - 0.6176
+10.0.2.2 - - [04/Dec/2014 06:46:19] "GET /jquery_ujs.js?body=1 HTTP/1.0" 200 17510 0.0869
+10.0.2.2 - - [04/Dec/2014 06:46:19] "GET /jquery.js?body=1 HTTP/1.0" 200 282767 0.0949
+10.0.2.2 - - [04/Dec/2014 06:46:19] "GET /application.css?body=1 HTTP/1.0" 200 650 0.1135
+10.0.2.2 - - [04/Dec/2014 06:46:19] "GET /turbolinks.js?body=1 HTTP/1.0" 200 24847 0.0587
+10.0.2.2 - - [04/Dec/2014 06:46:19] "GET /application.js?body=1 HTTP/1.0" 200 586 0.0708
+10.0.2.2 - - [04/Dec/2014 06:48:09] "GET / HTTP/1.0" 200 - 0.2051
+10.0.2.2 - - [04/Dec/2014 06:48:09] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0440
+10.0.2.2 - - [04/Dec/2014 06:48:09] "GET /turbolinks.js?body=1 HTTP/1.0" 304 - 0.0612
+10.0.2.2 - - [04/Dec/2014 06:48:09] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0598
+10.0.2.2 - - [04/Dec/2014 06:48:09] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0362
+10.0.2.2 - - [04/Dec/2014 06:48:09] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0617

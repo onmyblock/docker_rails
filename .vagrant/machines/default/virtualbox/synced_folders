@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tommydangerous/Dropbox/docker/rails1","disabled":false},"/opt/app":{"guestpath":"/opt/app","hostpath":"/","disabled":false},"/opt/web_app":{"guestpath":"/opt/web_app","hostpath":"/Users/tommydangerous/Dropbox/docker/rails1","disabled":false}}}
