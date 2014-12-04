@@ -24,3 +24,6 @@ $ docker rm -f $(docker ps -a)
 $ docker build -t [tag_name] .
 $ docker run -d -p 3000:80 [tag_name]
 ```
+
+### Errors
+If unicorn doesn't start, delete /rails_app/shared/pids/unicorn.pid
