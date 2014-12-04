@@ -17,19 +17,21 @@ RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 RUN mkdir /opt/web_app
 WORKDIR /opt/web_app
 
+RUN mkdir /opt/web_app/shared
 RUN mkdir /opt/web_app/shared/log
 RUN mkdir /opt/web_app/shared/pids
 
-ADD Gemfile /opt/web_app/Gemfile
-ADD Gemfile.lock /opt/web_app/Gemfile.lock
+ADD rails_app/Gemfile /opt/web_app/Gemfile
+ADD rails_app/Gemfile.lock /opt/web_app/Gemfile.lock
 RUN /bin/bash -l -c "bundle install"
 
-ADD server/nginx.conf /etc/nginx/sites-enabled/default
-ADD server/start-server.sh /usr/bin/start-server
+ADD config/server/nginx.conf /etc/nginx/sites-enabled/default
+ADD config/server/start-server.sh /usr/bin/start-server
+ADD config/server/unicorn.rb /opt/web_app/config/unicorn.rb
 RUN chmod +x /usr/bin/start-server
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
-ADD . /opt/web_app
+ADD rails_app /opt/web_app
 
 EXPOSE 80
 

@@ -10,5 +10,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "docker"
 
-  config.vm.synced_folder ".", "/opt/web_app"
+  config.vm.synced_folder "/rails_app", "/opt/web_app"
 end
