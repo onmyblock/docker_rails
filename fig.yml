@@ -1,0 +1,6 @@
+web:
+  build: .
+  volumes:
+    - .:/opt/web_app
+  ports:
+    - "3000:80"
