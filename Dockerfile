@@ -25,13 +25,13 @@ ADD rails_app/Gemfile /opt/web_app/Gemfile
 ADD rails_app/Gemfile.lock /opt/web_app/Gemfile.lock
 RUN /bin/bash -l -c "bundle install"
 
+ADD rails_app /opt/web_app
+
 ADD config/server/nginx.conf /etc/nginx/sites-enabled/default
 ADD config/server/start-server.sh /usr/bin/start-server
 ADD config/server/unicorn.rb /opt/web_app/config/unicorn.rb
 RUN chmod +x /usr/bin/start-server
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-
-ADD rails_app /opt/web_app
 
 EXPOSE 80
 

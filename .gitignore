@@ -36,3 +36,4 @@
 dump.rdb
 
 /.vagrant
+/rails_app
