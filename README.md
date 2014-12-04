@@ -1,5 +1,9 @@
 ### Setup
-Add `gem "unicorn"` to your Gemfile.
+```
+$ cd rails_app
+$ rails new .
+```
+Then add `gem "unicorn"` to your Gemfile.
 
 ### Production
 ```
